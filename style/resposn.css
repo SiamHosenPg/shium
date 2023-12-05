@@ -1,0 +1,63 @@
+@media only screen and (max-width: 800px) {
+
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 21px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    h4{
+        font-size: 16px;
+    }
+
+    .All_Area{
+        display: block;
+        width: 100%;
+    }
+    .NavSection {
+        display: block;
+        width: 100%;
+        height: 100.3vh;
+        position: fixed;
+        top: 0px;
+        left: -100%;
+    }
+    .NavSection .CloseTab{
+        display: block;
+    }
+    .All_Content{
+        width: 100%;
+    }
+    .All_Content .MenuBar{
+        display: flex;
+    }
+    
+    #Home{
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px 40px;
+    }
+
+    #Home .Left_Hm {
+        width: 100%;
+        margin-left: -10%;
+    }
+    #Home .Right_Hm {
+        width: 100%;
+    }
+    #Home .Right_Hm h1{
+        font-size: 32px;
+    }
+    #Home .Right_Hm p{
+        margin-top: 20px;
+    }
+
+  }
+  /*==============
+  ========
+   Closs 800 px madia query closses */
